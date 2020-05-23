@@ -1,21 +1,14 @@
-﻿using System;
-
-namespace ClassesAndObjects
+﻿namespace ClassesAndObjects
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
             Person person1 = new Person();
             person1.Name = "Jessica";
-            Console.WriteLine(person1.Name);
-        }
-
-        class Person
-        {
-            public string Name;
-            public int Age;
-            public string Gender;
+            person1.Age = 21;
+            person1.Gender = "woman";
+            person1.Characteristics();
         }
     }
 }
