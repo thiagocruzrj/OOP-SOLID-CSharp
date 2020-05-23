@@ -6,6 +6,11 @@
         public int YearManufacture;
         public string Brand;
 
+        public Car()
+        {
+
+        }
+
         public Car(string color, int yearManufacture, string brand)
         {
             Color = color;
