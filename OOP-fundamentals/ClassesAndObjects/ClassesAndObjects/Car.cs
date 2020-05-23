@@ -11,6 +11,11 @@
 
         }
 
+        public Car(string color)
+        {
+            Color = color;
+        }
+
         public Car(string color, int yearManufacture, string brand)
         {
             Color = color;

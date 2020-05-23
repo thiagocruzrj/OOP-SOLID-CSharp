@@ -12,6 +12,11 @@
             person2.YearManufacture = 2019;
             person2.Brand = "Honda";
             person2.Characteristics();
+
+            Car person3 = new Car("black");
+            person3.YearManufacture = 2017;
+            person3.Brand = "Wolks";
+            person3.Characteristics();
         }
     }
 }
