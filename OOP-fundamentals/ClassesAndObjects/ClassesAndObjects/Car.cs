@@ -6,11 +6,11 @@
         public int YearManufacture;
         public string Brand;
 
-        public Car()
+        public Car(string color, int yearManufacture, string brand)
         {
-            Color = "Red";
-            YearManufacture = 2019;
-            Brand = "Ford";
+            Color = color;
+            YearManufacture = yearManufacture;
+            Brand = brand;
         }
 
         public void Characteristics()
