@@ -67,3 +67,10 @@ Ao instanciar uma classe, ela por padrão, cria um construtor vazio e caso tenha
 Também podemos criar construtores referenciado nossas propriedades ou campos como parâmetros, ou setar o valor de nossos campos ou propriedades dentro do construtor. 
 
 Podemos ter mais de um construtor com parâmetros distintos, chamamos isso de sobrecarga. Assim como outros métodos, os construtores podem ser sobrecarregados usando diferentes números de parâmetros. Sendo assim, quando criamos dois métodos com o mesmo nome e parâmetros diferentes significa que estamos usando o recurso de sobrecarga.
+
+Palavra reservada “This”
+
+É a referência a instância atual da classe. Muito usada como o modificador do primeiro parâmetro de uma metodo de extensão.
+Usamos muito para evitar a ambiguidade, ocultando membros com nomes semelhantes. Um exemplo seria o nome de propriedade uppercase parametrizada com uppercase em um construtor (qualificamos dessa forma this.Name = Name dentro do construtor); 
+Passar um objeto como parâmetro para outros métodos; 
+Como a palavra reservada “this” está vinculada a uma instância da classe ela não pode ser referir a um campo ou método estático ( Irei abordar modificadores de acesso na próxima sessão );
