@@ -74,3 +74,16 @@ Palavra reservada “This”
 Usamos muito para evitar a ambiguidade, ocultando membros com nomes semelhantes. Um exemplo seria o nome de propriedade uppercase parametrizada com uppercase em um construtor (qualificamos dessa forma this.Name = Name dentro do construtor); 
 Passar um objeto como parâmetro para outros métodos; 
 Como a palavra reservada “this” está vinculada a uma instância da classe ela não pode ser referir a um campo ou método estático ( Irei abordar modificadores de acesso na próxima sessão );
+
+Modificadores de acesso
+
+São os determinadores do nível de acesso para classes, campos, métodos e propriedades. Temos quatro modificadores de acesso e seis níveis de acessibilidade :
+
+public : Sem restrição de acesso.
+private : Restrito a membros da mesma classe;
+protected: Restrito a membros da mesma classe e classes herdeiras.
+internal: Restrita às classes dentro do projeto atual
+protected internal: Herança restrita somente a classes do projeto atual;
+private protected: Restrito a classe ou tipos derivados da classe que o contém no projeto atual;
+
+FYI: Quando não há atribuição de modificador de acesso a classe por padrão o modificador é internal, já para membros da classe o modificador padrão é private;
