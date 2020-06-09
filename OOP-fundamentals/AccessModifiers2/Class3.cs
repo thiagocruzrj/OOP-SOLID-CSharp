@@ -2,8 +2,8 @@
 
 namespace AccessModifiers2
 {
-    public class Class3
+    internal class Class3
     {
-        public string Name;
+        string Name;
     }
 }
