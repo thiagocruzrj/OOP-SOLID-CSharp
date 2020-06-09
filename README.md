@@ -87,3 +87,7 @@ protected internal: Herança restrita somente a classes do projeto atual;
 private protected: Restrito a classe ou tipos derivados da classe que o contém no projeto atual;
 
 FYI: Quando não há atribuição de modificador de acesso a classe por padrão o modificador é internal, já para membros da classe o modificador padrão é private;
+
+Porque usamos Modificadores de acesso ?
+
+Com eles temos os benefícios de controlar a visibilidade dos membros de uma classe além de obter o famoso "Encapsulamento" que nada mais é que a garantia que os dados "vulneraveis" sejam ocultados para outras classes, sendo que uma maneira de se obter essa restrição seria a declaração dos métodos de uma classe como private.
