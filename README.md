@@ -100,3 +100,19 @@ Nada mais é que o processo de esconder membros de uma classe do acesso exterior
 Um dos grandes benefícios seria a preservação da integridade da classe, ocultando detalhes importantes da implementação do mundo exterior.
 A implementação é simples, temos o exemplo da declaração de membros (campos/variáveis) como privados além de também fornecer métodos públicos get e set (propriedades), para o acesso e atualização do valor de um campo privado.
 
+Propriedade
+Seria a combinação de variável e metodo, possuindo 2 métodos.
+
+Ex: 
+private string car;
+public string Car {
+	get { return car; }
+	set { car = value; }
+}
+
+Nesse exemplo temos a propriedade Car associada ao campo car.
+O método get retorno o valor do campo car.
+O método set atribui um valor do campo car.
+
+A palavra-chave value representa o valor atribuído à propriedade;
+
