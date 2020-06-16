@@ -91,3 +91,12 @@ FYI: Quando não há atribuição de modificador de acesso a classe por padrão 
 Porque usamos Modificadores de acesso ?
 
 Com eles temos os benefícios de controlar a visibilidade dos membros de uma classe além de obter o famoso "Encapsulamento" que nada mais é que a garantia que os dados "vulneraveis" sejam ocultados para outras classes, sendo que uma maneira de se obter essa restrição seria a declaração dos métodos de uma classe como private.
+
+Propriedades e Encapsulamento
+
+Encapsulamento
+
+Nada mais é que o processo de esconder membros de uma classe do acesso exterior utilizando modificadores (Information hiding).
+Um dos grandes benefícios seria a preservação da integridade da classe, ocultando detalhes importantes da implementação do mundo exterior.
+A implementação é simples, temos o exemplo da declaração de membros (campos/variáveis) como privados além de também fornecer métodos públicos get e set (propriedades), para o acesso e atualização do valor de um campo privado.
+
