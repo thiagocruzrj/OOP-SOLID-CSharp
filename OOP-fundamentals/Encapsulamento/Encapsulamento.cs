@@ -2,8 +2,8 @@ namespace ClassesAndObjects
 {
     class Car
     {
-        public string Color;
-        public int YearManufacture;
-        public string Brand;
+        private string Color;
+        private int YearManufacture;
+        private string Brand;
     }
 }
