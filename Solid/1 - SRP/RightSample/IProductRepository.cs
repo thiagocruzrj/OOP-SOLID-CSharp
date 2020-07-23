@@ -4,6 +4,6 @@ namespace RightSample
 {
     public interface IProductRepository
     {
-        void AddProduct(Product product);
+        Task AddProduct(Product product);
     }
 }
